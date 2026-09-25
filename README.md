@@ -7,6 +7,13 @@ GROUP:IT-2501
   TASK 0(Navigation Bar)
   <img width="406" height="164" alt="Screenshot 2026-09-27 at 16 05 14" src="https://github.com/user-attachments/assets/f9bb3946-d613-4252-8afd-e3467ac64461" />
 
+
+
+
+
+
+  
+
 task 1 (CARD ROW)
 <img width="1094" height="435" alt="Screenshot 2026-09-29 at 15 12 09" src="https://github.com/user-attachments/assets/404cc5f3-3000-4f7e-81a2-e88509480d45" />
 
@@ -23,4 +30,15 @@ TASK 3
 <img width="1190" height="683" alt="Screenshot 2026-09-29 at 15 15 28" src="https://github.com/user-attachments/assets/d02ea5fe-ff91-4d7f-b6a1-b0595b5c8c67" />
 Nine images in a 3-column CSS Grid with a caption overlay on hover.
 
+
+
+
 TASK 4 
+
+<img width="1472" height="719" alt="Screenshot 2026-09-29 at 15 22 13" src="https://github.com/user-attachments/assets/efead32a-18a7-4176-beb1-258c20eb886f" />
+
+
+
+## Summary of Work Process
+well, it wasnt that easy for me cause there are too manu new information that i need to absorb
+
