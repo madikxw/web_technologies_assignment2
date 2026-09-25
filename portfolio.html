@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 4 — Portfolio Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Flexbox used for the nav bar -->
+  <header class="portfolio-header">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="grid.html">Grid Demo</a></li>
+    </ul>
+  </header>
+
+  <!-- Grid used for the two-column main layout -->
+  <div class="portfolio-body">
+
+    <!-- Left column: projects, laid out with Flexbox -->
+    <div class="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A weather app built with vanilla JavaScript and a public API.</p>
+        <button>View Project</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>A responsive landing page using Flexbox and CSS Grid together.</p>
+        <button>View Project</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>A to-do list app with local storage persistence.</p>
+        <button>View Project</button>
+      </div>
+    </div>
+
+    <!-- Right column: sidebar info -->
+    <aside class="sidebar-info">
+      <h3>About Me</h3>
+      <p>Student at Astana IT University, learning Front-End development
+        with a focus on modern CSS layout techniques.</p>
+      <h3>Contact</h3>
+      <p>email@example.com</p>
+    </aside>
+
+  </div>
+
+  <footer class="portfolio-footer">
+    &copy; 2026 My Portfolio
+  </footer>
+
+</body>
+</html>
