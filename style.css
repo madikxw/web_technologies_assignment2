@@ -1,6 +1,4 @@
-/* ===========================================================
-   GLOBAL / RESET
-   =========================================================== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,13 +22,11 @@ section {
   margin: 0 auto;
 }
 
-/* ===========================================================
-   TASK 0 — NAVIGATION BAR (Flexbox)
-   =========================================================== */
+
 .navbar {
-  display: flex;                    /* header becomes a flex container */
-  justify-content: space-between;   /* logo left, links right */
-  align-items: center;              /* vertical centering */
+  display: flex;                    
+  justify-content: space-between;   
+  align-items: center;              
   padding: 16px 32px;
   background-color: #1f2937;
   color: #fff;
@@ -45,8 +41,8 @@ section {
 }
 
 .nav-links {
-  display: flex;      /* the link list is itself a flex row */
-  gap: 24px;           /* spacing between links via Flexbox gap */
+  display: flex;      
+  gap: 24px;           
   align-items: center;
   list-style: none;
 }
@@ -61,24 +57,22 @@ section {
   color: #fbbf24;
 }
 
-/* ===========================================================
-   TASK 1 — CARD ROW (Flexbox)
-   =========================================================== */
+
 .card-row {
-  display: flex;         /* container holding the cards becomes flex */
-  gap: 24px;              /* consistent gaps between cards */
-  align-items: stretch;   /* stretch = equal height cards */
-  flex-wrap: wrap;        /* allow wrapping on small screens */
+  display: flex;         
+  gap: 24px;              
+  align-items: stretch;   
+  flex-wrap: wrap;        
 }
 
 .card {
-  flex: 1 1 260px;         /* grow/shrink, base width 260px */
+  flex: 1 1 260px;        
   background: #fff;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column;  /* stack image/title/text/button vertically */
+  flex-direction: column;  
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -97,7 +91,7 @@ section {
   padding: 16px;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;            /* pushes the button to the bottom */
+  flex-grow: 1;            
 }
 
 .card-body p {
@@ -120,13 +114,13 @@ section {
   background-color: #374151;
 }
 
-/* ===========================================================
-   TASK 2 — PAGE LAYOUT WITH GRID AREAS (CSS Grid)
-   =========================================================== */
+
+
+
 .page-grid {
   display: grid;
-  grid-template-columns: 220px 1fr;      /* sidebar width + rest */
-  grid-template-rows: auto 1fr auto;     /* header / content / footer */
+  grid-template-columns: 220px 1fr;      
+  grid-template-rows: auto 1fr auto;     
   grid-template-areas:
     "header header"
     "sidebar main"
@@ -162,12 +156,12 @@ section {
   text-align: center;
 }
 
-/* ===========================================================
-   TASK 3 — IMAGE GALLERY (CSS Grid)
-   =========================================================== */
+
+
+
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);  /* 3 equal-width columns */
+  grid-template-columns: repeat(3, 1fr);  
   gap: 16px;
 }
 
@@ -197,14 +191,11 @@ section {
 }
 
 .gallery-item:hover .caption {
-  opacity: 1;    /* caption overlay appears on hover */
+  opacity: 1;    
 }
 
-/* ===========================================================
-   TASK 4 — PORTFOLIO PAGE (Flexbox + Grid combined)
-   =========================================================== */
 .portfolio-header {
-  display: flex;                  /* Flexbox used for the nav bar */
+  display: flex;                  
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
@@ -213,8 +204,8 @@ section {
 }
 
 .portfolio-body {
-  display: grid;                          /* Grid used for the main layout */
-  grid-template-columns: 2fr 1fr;         /* projects area | sidebar */
+  display: grid;                          
+  grid-template-columns: 2fr 1fr;         
   gap: 24px;
   padding: 32px;
   max-width: 1100px;
@@ -222,7 +213,7 @@ section {
 }
 
 .projects {
-  display: flex;            /* Flexbox arranges the project cards */
+  display: flex;           
   flex-direction: column;
   gap: 20px;
 }
@@ -232,7 +223,7 @@ section {
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  display: flex;              /* Flexbox inside each card */
+  display: flex;              
   flex-direction: column;
   gap: 8px;
 }
