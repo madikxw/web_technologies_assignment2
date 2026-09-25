@@ -1,9 +1,4 @@
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   line-height: 1.5;
@@ -27,7 +22,7 @@ section {
   justify-content: space-between;   
   align-items: center;              
   padding: 16px;
-  background-color: #1f2937;
+  background-color: #0068fa;
   color: #f8efef;
  
 }
